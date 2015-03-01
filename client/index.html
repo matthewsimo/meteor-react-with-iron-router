@@ -1,0 +1,23 @@
+<head>
+  <title>react-with-routes</title>
+</head>
+<body>
+</body>
+
+<template name="Main">
+
+  <h1>Welcome to Meteor!</h1>
+
+  {{> nav}}
+
+	{{> yield }}
+
+</template>
+
+<template name="nav">
+<nav>
+	<a href="/list-1">List 1</a>
+	<a href="/list-2">List 2</a>
+	<a href="/list-3">List 3</a>
+</nav>
+</template>
